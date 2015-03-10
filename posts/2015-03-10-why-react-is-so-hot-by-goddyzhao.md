@@ -26,7 +26,7 @@ by [@goddyzhao](https://github.com/goddyZhao)
   );
 ~~~
 
-这里的`div`其实和DOM中的div完全是两码事儿了，只不过React提供了和DOM类似的Tag和API，事实上React会通过他自己的逻辑去转化为真正的DOM。所以，把这种重做虚拟DOM。
+这里的`div`其实和DOM中的div完全是两码事儿了，只不过React提供了和DOM类似的Tag和API，事实上React会通过他自己的逻辑去转化为真正的DOM。所以，把这种称作虚拟DOM。
 
 那么这样做有什么好处呢？最明显的一点好处就是React所谓的`dom diff`，能够实现delta级别的dom更新。当有数据变动导致DOM变动时，React不是全局刷新，而是通过它内部的`dom diff`算法计算出不同点，然后以最小粒度进行更新。这也是React号称性能好的原因。
 
