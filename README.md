@@ -18,6 +18,13 @@
 3. `解·读`将坚持原创
 4. `解·读`通过[Github Issue](https://github.com/jieio/du/issues)来接收大家项目中遇到的问题，讨论，并接收Pull Request（必须是原创内容或者翻译文章）来解决大家提出的问题。 
 
+## 如何贡献
+
+1. 直接`fork`本项目
+2. 用你最喜欢的markdown编辑器书写你要分享的技术内容，并保存成`.md`格式的文件，命名遵循：`日期-标题英文或拼音-by-你的github id.md`，如：`2015-03-09-how-to-start-with-react-by-goddyzhao.md`
+3. 然后发`pull request`即可
+4. 我们会merge你的文章后发表到公众号中
+
 ## 关注我们
 
 如果你觉得`解·读`听着可能会对你有所帮助，那么不妨关注我们的微信公众号尝试下，谢谢！
